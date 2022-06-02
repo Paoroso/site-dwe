@@ -1,0 +1,281 @@
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(212, 212, 226);
+}
+
+body {
+    width: 100%;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+}
+
+.all-lists {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.all-lists li {
+    margin: 20px;
+}
+
+.title-list {
+    margin-left: -10px !important;
+}
+
+.list-req {
+    font-size: 25px;
+}
+
+.container-recipes {
+    background-image: url(images/black-table.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    height: 650px;
+    color: #fff;
+}
+
+.title-recipes {
+    padding-top: 20px;
+}
+
+.all-cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.cards-recipes {
+    transition: all 0.3s ease-out;
+}
+
+.cards-recipes:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+}
+
+.container-cronogram {
+    height: 700px;
+}
+
+.card-cronogram {
+    border-radius: 10px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 300px;
+    height: 400px;
+    transition: all 0.3s ease-out;
+    border-left: 3px solid deepskyblue;
+}
+
+.all-cronograms {
+    display: flex;
+    justify-content: space-around;
+}
+
+input {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    position: absolute;   
+    box-sizing: border-box;
+    height: 28px;
+    margin-top: 4px;
+    padding: 6px 12px;
+    min-width: 12%;
+    max-width: 20%;
+}
+
+.long-input {
+    min-width: 25%;
+    max-width: 40%;
+}
+
+a:hover {
+    transform: translateY(-3px);
+    color: deepskyblue;
+    cursor: pointer;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s ease-out;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1, h2 {
+    font-family: 'Bebas Neue';
+    font-weight: normal;
+    font-size: 45px;
+    margin: 20px
+
+}
+
+h3, h4, p {
+    font-family: 'Oswald';
+    font-weight: normal;
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+footer{
+    font-family: 'lobster';
+}
+
+form{
+    font-family: 'Oswald';
+}
+
+.description-course {
+    width: 50%;
+}
+
+.container-header {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    width: 96%;
+    position: fixed;
+    margin-top: 20px;
+    margin-left: 30px;
+    z-index: 3;
+}
+
+.container-course{
+    color: #FFFFFF;
+    position: absolute;
+    top: 20%;
+}
+
+.image-header {
+    background-image: url(images/footerjpg.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    height: 600px;
+}
+
+.menu-header {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+    width: 100%;
+    align-items: center;
+    padding: 0;
+}
+
+.container-menu {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-sub {
+    background-image: url("images/tompero.jpg");
+    background-attachment: fixed;
+    color: #fff;
+    display: flex;
+    min-height: 500px;
+}
+
+.title-sub, .description-sub {
+    width: 100%;
+}
+
+.forms-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: max-content;
+}
+
+.duo-field {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    border-style: none;    
+    width: 100%;
+}
+
+/* .solo-field {
+    display: flex;
+    border-style: none;
+    width: 100%;
+} */
+
+button {
+    width: 100%;
+    background-color: deepskyblue;
+    margin-top: 25px;
+    border-radius: 20px;
+    border: 1px solid deepskyblue;
+    box-sizing: border-box;
+    height: 28px;
+}
+
+.div-button {
+    width: 100%;
+}
+
+.field-primary{
+    margin: 0;
+    padding: 12px 0;
+    width: 100%;
+}
+
+.container-footer {
+    background-color: #000;
+    display: flex;    
+    padding: 30px 10px;
+}
+
+.image-footer h3 {
+    margin: 0;
+}
+
+.image-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    width: 10%;
+}
+
+.links-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+}
+
+.links-footer a{
+    color: #fff;
+}
+
+.teste {
+    margin-top: -50px;
+}
